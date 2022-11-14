@@ -1,5 +1,16 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <div></div>
 </template>
+
+<script>
+import * as THREE from 'three'
+
+export default {
+  name: 'About',
+  mounted() {
+    console.log(THREE)
+  }
+}
+</script>
+
+<style></style>
